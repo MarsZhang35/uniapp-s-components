@@ -1,0 +1,97 @@
+
+.container {
+	padding-bottom: 150rpx;
+}
+.container-top {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	padding: 20rpx;
+}
+.title {
+	width: 100%;
+	font-size: 50rpx;
+	font-weight: bold;
+	background-color: #6fdbdd;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+.description {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.author {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 85%;
+}
+.author-detail {}
+.logo-image {
+	width: 40rpx;
+	height: 40rpx;
+}
+.git-info {
+	display: flex;
+	flex-direction: row;
+}
+.git-image {
+	width: 40rpx;
+	height: 40rpx;
+	padding-right: 10rpx;
+}
+
+/* 	之前的可复用 */
+.box-container {
+	padding: 30rpx;
+	display: flex;
+	justify-content: center;
+}
+.box {
+	width: 100rpx;
+	height: 100rpx;
+	background-color: #dce1e6;
+}
+.change-postion-view{
+	display: flex;
+	flex-direction: row;
+}
+.change-color {
+	display: flex;
+	flex-direction: row;
+}
+.change-color-blue {
+	background-color: blue;
+}
+.change-color-green {
+	background-color: green;
+}
+.change-color-yellow {
+	background-color: yellow;
+}
+.change-color-red {
+	background-color: red;
+}
+.change-color-default {
+	background-color: grey;
+}
+.change-size {
+	display: flex;
+	flex-direction: row;
+}
+.change-location {}
+.change-location-view {
+	display: flex;
+	flex-direction: row;
+}
+.change-style {
+	display: flex;
+	flex-direction: row;
+}
+.inputNum {
+	border: 1px black solid;
+}
+

@@ -1,0 +1,205 @@
+{
+	"pages": [
+		{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "主页面"
+		}
+	},
+	{
+		"path": "pages/index/swiperDot",
+		"style": {
+			"navigationBarTitleText": "轮播图指示点"
+		}
+	},
+	{
+		"path": "pages/index/swipeAction",
+		"style": {
+			"navigationBarTitleText": "滑动操作"
+		}
+	},
+	{
+		"path": "pages/index/steps",
+		"style": {
+			"navigationBarTitleText": "步骤条"
+		}
+	},
+	{
+		"path": "pages/index/segmentedControl",
+		"style": {
+			"navigationBarTitleText": "分段器"
+		}
+	},
+	{
+		"path": "pages/index/searchBar",
+		"style": {
+			"navigationBarTitleText": "搜索栏"
+		}
+	},
+	{
+		"path": "pages/index/rate",
+		"style": {
+			"navigationBarTitleText": "评分"
+		}
+	},
+	{
+		"path": "pages/index/popup",
+		"style": {
+			"navigationBarTitleText": "弹出层"
+		}
+	},
+	{
+		"path": "pages/index/pagination",
+		"style": {
+			"navigationBarTitleText": "分页器"
+		}
+	},
+	{
+		"path": "pages/index/numberBox",
+		"style": {
+			"navigationBarTitleText": "数字输入框"
+		}
+	},
+	{
+		"path": "pages/index/noticeBar",
+		"style": {
+			"navigationBarTitleText": "通告栏"
+		}
+	},
+	{
+		"path": "pages/index/navBar",
+		"style": {
+			"navigationBarTitleText": "自定义导航栏"
+		}
+	},
+	{
+		"path": "pages/index/loadMore",
+		"style": {
+			"navigationBarTitleText": "加载更多"
+		}
+	},
+	{
+		"path": "pages/index/list",
+		"style": {
+			"navigationBarTitleText": "列表"
+		}
+	},
+	{
+		"path": "pages/index/indexedList",
+		"style": {
+			"navigationBarTitleText": "索引列表"
+		}
+	},
+	{
+		"path": "pages/index/group",
+		"style": {
+			"navigationBarTitleText": "分组"
+		}
+	},
+	{
+		"path": "pages/index/grid",
+		"style": {
+			"navigationBarTitleText": "宫格"
+		}
+	},
+	{
+		"path": "pages/index/goodsNav",
+		"style": {
+			"navigationBarTitleText": "商品导航"
+		}
+	},
+	{
+		"path": "pages/index/forms",
+		"style": {
+			"navigationBarTitleText": "表单"
+		}
+	},
+	{
+		"path": "pages/index/filePicker",
+		"style": {
+			"navigationBarTitleText": "文件选择上穿"
+		}
+	},
+	{
+		"path": "pages/index/fav",
+		"style": {
+			"navigationBarTitleText": "收藏按钮"
+		}
+	},
+	{
+		"path": "pages/index/fab",
+		"style": {
+			"navigationBarTitleText": "悬浮按钮"
+		}
+	},
+	{
+		"path": "pages/index/easyInput",
+		"style": {
+			"navigationBarTitleText": "增强输入框"
+		}
+	},
+	{
+		"path": "pages/index/drawer",
+		"style": {
+			"navigationBarTitleText": "抽屉"
+		}
+	},
+	{
+		"path": "pages/index/datetimePicker",
+		"style": {
+			"navigationBarTitleText": "日期选择器"
+		}
+	},
+	{
+		"path": "pages/index/dataPicker",
+		"style": {
+			"navigationBarTitleText": "picker选择器"
+		}
+	},
+	{
+		"path": "pages/index/dataCheckbox",
+		"style": {
+			"navigationBarTitleText": "数据选择器"
+		}
+	},
+	{
+		"path": "pages/index/countDown",
+		"style": {
+			"navigationBarTitleText": "倒计时"
+		}
+	},
+	{
+		"path": "pages/index/combox",
+		"style": {
+			"navigationBarTitleText": "组合框"
+		}
+	},
+	{
+		"path": "pages/index/collapse",
+		"style": {
+			"navigationBarTitleText": "折叠面板"
+		}
+	},
+	{
+		"path": "pages/index/card",
+		"style": {
+			"navigationBarTitleText": "卡片"
+		}
+	},
+	{
+		"path": "pages/index/badge",
+		"style": {
+			"navigationBarTitleText": "数字角标"
+		}
+	}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}

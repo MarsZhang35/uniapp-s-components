@@ -1,0 +1,69 @@
+
+.container {
+	padding-bottom: 150rpx;
+}
+.container-top {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	padding: 20rpx;
+}
+.title {
+	width: 100%;
+	font-size: 50rpx;
+	font-weight: bold;
+	background-color: #6fdbdd;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+.description {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.author {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 55%;
+}
+.author-detail {}
+.logo-image {
+	width: 40rpx;
+	height: 40rpx;
+}
+.git-info {
+	display: flex;
+	flex-direction: row;
+}
+.git-image {
+	width: 40rpx;
+	height: 40rpx;
+	padding-right: 10rpx;
+}
+.city {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.input-view {
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+	background-color: #f8f8f8;
+	height: 60rpx;
+	border-radius: 30rpx;
+	padding: 0 30rpx;
+	flex-wrap: nowrap;
+	line-height: 60rpx;
+}
+.nav-bar-input {
+	height: 60rpx;
+	line-height: 60rpx;
+	padding: 0 10rpx;
+	font-size: 28rpx;
+	background-color: #f8f8f8;
+}
+

@@ -1,0 +1,50 @@
+
+.container {
+	padding-bottom: 150rpx;
+}
+.container-top {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	padding: 20rpx;
+}
+.title {
+	width: 100%;
+	font-size: 50rpx;
+	font-weight: bold;
+	background-color: #6fdbdd;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+.description {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.author {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 55%;
+}
+.author-detail {}
+.logo-image {
+	width: 40rpx;
+	height: 40rpx;
+}
+.git-info {
+	display: flex;
+	flex-direction: row;
+}
+.git-image {
+	width: 40rpx;
+	height: 40rpx;
+	padding-right: 10rpx;
+}
+.change-mode-view {
+	display: flex;
+	flex-direction: row;
+}
+

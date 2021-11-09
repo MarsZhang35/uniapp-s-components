@@ -1,9 +1,21 @@
 {
 	"pages": [
-		{
-		"path": "pages/index/index",
+	// 	{
+	// 	"path": "pages/index/index",
+	// 	"style": {
+	// 		"navigationBarTitleText": "主页面"
+	// 	}
+	// },
+	{
+		"path": "pages/index/tag",
 		"style": {
-			"navigationBarTitleText": "主页面"
+			"navigationBarTitleText": "标签"
+		}
+	},
+	{
+		"path": "pages/index/table",
+		"style": {
+			"navigationBarTitleText": "表格"
 		}
 	},
 	{

@@ -93,6 +93,12 @@
 		<view class="goto-page" @click="myNavigator('/pages/index/swiperDot')">
 			uni-swiper-dot 轮播图指示点
 		</view>
+		<view class="goto-page" @click="myNavigator('/pages/index/table')">
+			uni-table 表格
+		</view>
+		<view class="goto-page" @click="myNavigator('/pages/index/tag')">
+			uni-tag 标签
+		</view>
 	</view>
 </template>
 

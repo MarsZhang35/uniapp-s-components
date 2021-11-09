@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/index/tag",
     "pages/index/table",
     "pages/index/swiperDot",
@@ -41,6 +42,5 @@
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap.json"
+  "usingComponents": {}
 }

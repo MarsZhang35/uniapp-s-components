@@ -8,13 +8,16 @@
 	align-items: center;
 	flex-direction: column;
 }
+.u-section{
+	width: 100%;
+}
 .goto-page{
 	width: 98%;
 	/* border: 1rpx black solid; */
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #69e1e8;
+	background-color: #459bff;
 	margin: 5rpx 0;
 }
 

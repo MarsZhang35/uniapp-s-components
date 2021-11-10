@@ -1,4 +1,6 @@
 {
-  "navigationBarTitleText": "uni-app自带组建",
-  "usingComponents": {}
+  "navigationBarTitleText": "uni-app组建",
+  "usingComponents": {
+    "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section"
+  }
 }

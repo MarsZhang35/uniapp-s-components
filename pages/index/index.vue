@@ -1,5 +1,16 @@
 <template>
 	<view class="container">
+		<uni-section class="u-section" title="自带组建" type="line"></uni-section>
+		<view class="goto-page" @click="myNavigator('/owner/view')">
+			view 视图容器
+		</view>
+		<view class="goto-page" @click="myNavigator('/owner/map')">
+			map 地图
+		</view>
+		<view class="goto-page" @click="myNavigator('/owner/canvas')">
+			canvase 画布
+		</view>
+		<uni-section class="u-section" title="扩展组建" type="line"></uni-section>
 		<view class="goto-page" @click="myNavigator('/subpkg/badge')">
 			uni-badge 数字角标
 		</view>
@@ -136,13 +147,17 @@
 		flex-direction: column;
 	}
 	
+	.u-section{
+		width: 100%;
+	}
+	
 	.goto-page{
 		width: 98%;
 		/* border: 1rpx black solid; */
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		background-color: #69e1e8;
+		background-color: #459bff;
 		margin: 5rpx 0;
 	}
 </style>

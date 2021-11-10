@@ -4,8 +4,7 @@
     "ignore": []
   },
   "setting": {
-    "urlCheck": false,
-	"checkSiteMap": false
+    "urlCheck": false
   },
   "compileType": "miniprogram",
   "libVersion": "",

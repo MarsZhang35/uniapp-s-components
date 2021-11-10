@@ -2,259 +2,285 @@
 	"pages": [{
 		"path": "pages/index/index",
 		"style": {
-			"navigationBarTitleText": "uni-app自带组建"
+			"navigationBarTitleText": "uni-app组建"
 		}
 	}],
 	"subPackages": [{
-		"root": "subpkg",
-		"pages": [{
-				"path": "badge",
-				"style": {
-					"navigationBarTitleText": "数字角标",
-					"enablePullDownRefresh": false
+			"root": "owner",
+			"pages": [{
+					"path": "view",
+					"style": {
+						"navigationBarTitleText": "视图容器",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "map",
+					"style": {
+						"navigationBarTitleText": "地图",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "canvas",
+					"style": {
+						"navigationBarTitleText": "画布",
+						"enablePullDownRefresh": false
+					}
 				}
-			},
-			{
-				"path": "calendar",
-				"style": {
-					"navigationBarTitleText": "日历",
-					"enablePullDownRefresh": false
+			]
+		},
+		{
+			"root": "subpkg",
+			"pages": [{
+					"path": "badge",
+					"style": {
+						"navigationBarTitleText": "数字角标",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "calendar",
+					"style": {
+						"navigationBarTitleText": "日历",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "card",
+					"style": {
+						"navigationBarTitleText": "卡片",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "collapse",
+					"style": {
+						"navigationBarTitleText": "折叠面板",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "combox",
+					"style": {
+						"navigationBarTitleText": "组合框",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "countDown",
+					"style": {
+						"navigationBarTitleText": "倒计时",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "dataCheckbox",
+					"style": {
+						"navigationBarTitleText": "数据选择器",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "dataPicker",
+					"style": {
+						"navigationBarTitleText": "picker选择器",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "drawer",
+					"style": {
+						"navigationBarTitleText": "抽屉",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "datetimePicker",
+					"style": {
+						"navigationBarTitleText": "日期选择器",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "fab",
+					"style": {
+						"navigationBarTitleText": "悬浮按钮",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "easyInput",
+					"style": {
+						"navigationBarTitleText": "增强输入框",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "filePicker",
+					"style": {
+						"navigationBarTitleText": "文件选择上穿",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "fav",
+					"style": {
+						"navigationBarTitleText": "收藏按钮",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "goodsNav",
+					"style": {
+						"navigationBarTitleText": "商品导航",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "forms",
+					"style": {
+						"navigationBarTitleText": "表单",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "group",
+					"style": {
+						"navigationBarTitleText": "分组",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "grid",
+					"style": {
+						"navigationBarTitleText": "宫格",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "list",
+					"style": {
+						"navigationBarTitleText": "列表",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "indexedList",
+					"style": {
+						"navigationBarTitleText": "索引列表",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "navBar",
+					"style": {
+						"navigationBarTitleText": "自定义导航栏",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "loadMore",
+					"style": {
+						"navigationBarTitleText": "加载更多",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "numberBox",
+					"style": {
+						"navigationBarTitleText": "数字输入框",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "noticeBar",
+					"style": {
+						"navigationBarTitleText": "通告栏",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "popup",
+					"style": {
+						"navigationBarTitleText": "弹出层",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pagination",
+					"style": {
+						"navigationBarTitleText": "分页器",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "searchBar",
+					"style": {
+						"navigationBarTitleText": "搜索栏",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "rate",
+					"style": {
+						"navigationBarTitleText": "评分",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "swipeAction",
+					"style": {
+						"navigationBarTitleText": "滑动操作",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "steps",
+					"style": {
+						"navigationBarTitleText": "步骤条",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "segmentedControl",
+					"style": {
+						"navigationBarTitleText": "分段器",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "table",
+					"style": {
+						"navigationBarTitleText": "表格",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "swiperDot",
+					"style": {
+						"navigationBarTitleText": "轮播图指示点",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "transition",
+					"style": {
+						"navigationBarTitleText": "过渡动画",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "tag",
+					"style": {
+						"navigationBarTitleText": "标签",
+						"enablePullDownRefresh": false
+					}
 				}
-			},
-			{
-				"path": "card",
-				"style": {
-					"navigationBarTitleText": "卡片",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "collapse",
-				"style": {
-					"navigationBarTitleText": "折叠面板",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "combox",
-				"style": {
-					"navigationBarTitleText": "组合框",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "countDown",
-				"style": {
-					"navigationBarTitleText": "倒计时",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "dataCheckbox",
-				"style": {
-					"navigationBarTitleText": "数据选择器",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "dataPicker",
-				"style": {
-					"navigationBarTitleText": "picker选择器",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "drawer",
-				"style": {
-					"navigationBarTitleText": "抽屉",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "datetimePicker",
-				"style": {
-					"navigationBarTitleText": "日期选择器",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "fab",
-				"style": {
-					"navigationBarTitleText": "悬浮按钮",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "easyInput",
-				"style": {
-					"navigationBarTitleText": "增强输入框",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "filePicker",
-				"style": {
-					"navigationBarTitleText": "文件选择上穿",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "fav",
-				"style": {
-					"navigationBarTitleText": "收藏按钮",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "goodsNav",
-				"style": {
-					"navigationBarTitleText": "商品导航",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "forms",
-				"style": {
-					"navigationBarTitleText": "表单",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "group",
-				"style": {
-					"navigationBarTitleText": "分组",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "grid",
-				"style": {
-					"navigationBarTitleText": "宫格",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "list",
-				"style": {
-					"navigationBarTitleText": "列表",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "indexedList",
-				"style": {
-					"navigationBarTitleText": "索引列表",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "navBar",
-				"style": {
-					"navigationBarTitleText": "自定义导航栏",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "loadMore",
-				"style": {
-					"navigationBarTitleText": "加载更多",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "numberBox",
-				"style": {
-					"navigationBarTitleText": "数字输入框",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "noticeBar",
-				"style": {
-					"navigationBarTitleText": "通告栏",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "popup",
-				"style": {
-					"navigationBarTitleText": "弹出层",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "pagination",
-				"style": {
-					"navigationBarTitleText": "分页器",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "searchBar",
-				"style": {
-					"navigationBarTitleText": "搜索栏",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "rate",
-				"style": {
-					"navigationBarTitleText": "评分",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "swipeAction",
-				"style": {
-					"navigationBarTitleText": "滑动操作",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "steps",
-				"style": {
-					"navigationBarTitleText": "步骤条",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "segmentedControl",
-				"style": {
-					"navigationBarTitleText": "分段器",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "table",
-				"style": {
-					"navigationBarTitleText": "表格",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "swiperDot",
-				"style": {
-					"navigationBarTitleText": "轮播图指示点",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "transition",
-				"style": {
-					"navigationBarTitleText": "过渡动画",
-					"enablePullDownRefresh": false
-				}
-			},
-			{
-				"path": "tag",
-				"style": {
-					"navigationBarTitleText": "标签",
-					"enablePullDownRefresh": false
-				}
-			}
 
-		]
-	}],
+			]
+		}
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",

@@ -1,0 +1,1 @@
+<view class="container-top"><view class="title">map 地图组建</view><view class="description">地图组件用于展示地图，而定位API只是获取坐标，请勿混淆两者。</view><map style="width:100%;height:300px;" latitude="{{latitude}}" longitude="{{longitude}}" markers="{{covers}}"></map></view>

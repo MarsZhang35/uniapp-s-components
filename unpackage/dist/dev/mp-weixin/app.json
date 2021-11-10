@@ -4,6 +4,14 @@
   ],
   "subPackages": [
     {
+      "root": "owner",
+      "pages": [
+        "view",
+        "map",
+        "canvas"
+      ]
+    },
+    {
       "root": "subpkg",
       "pages": [
         "badge",
@@ -50,6 +58,5 @@
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap.json"
+  "usingComponents": {}
 }

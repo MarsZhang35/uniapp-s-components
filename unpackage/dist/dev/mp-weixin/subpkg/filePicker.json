@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "文件选择上穿",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-link": "/uni_modules/uni-link/components/uni-link/uni-link",
+    "uni-file-picker": "/uni_modules/uni-file-picker/components/uni-file-picker/uni-file-picker",
+    "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section"
+  }
+}

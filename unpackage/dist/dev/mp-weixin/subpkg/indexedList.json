@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "索引列表",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-link": "/uni_modules/uni-link/components/uni-link/uni-link",
+    "uni-indexed-list": "/uni_modules/uni-indexed-list/components/uni-indexed-list/uni-indexed-list"
+  }
+}

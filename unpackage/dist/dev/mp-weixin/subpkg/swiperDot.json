@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "轮播图指示点",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-link": "/uni_modules/uni-link/components/uni-link/uni-link",
+    "uni-swiper-dot": "/uni_modules/uni-swiper-dot/components/uni-swiper-dot/uni-swiper-dot",
+    "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section"
+  }
+}

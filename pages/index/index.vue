@@ -3,6 +3,9 @@
 		<view class="goto-page" @click="myNavigator('/pages/index/badge')">
 			uni-badge 数字角标
 		</view>
+		<view class="goto-page" @click="myNavigator('/pages/index/calendar')">
+			uni-calendar 日历
+		</view>
 		<view class="goto-page" @click="myNavigator('/pages/index/card')">
 			uni-calendar 卡片
 		</view>
@@ -55,10 +58,10 @@
 			uni-indexed-list 索引列表
 		</view>
 		<view class="goto-page" @click="myNavigator('/pages/index/list')">
-			uni-list 列表
+			20.uni-list 列表
 		</view>
 		<view class="goto-page" @click="myNavigator('/pages/index/loadMore')">
-			20.uni-load-more 加载更多
+			uni-load-more 加载更多
 		</view>
 		<view class="goto-page" @click="myNavigator('/pages/index/navBar')">
 			uni-nav-bar 自定义导航栏
@@ -70,10 +73,10 @@
 			uni-number-box 数字输入框
 		</view>
 		<view class="goto-page" @click="myNavigator('/pages/index/pagination')">
-			uni-pagination 分页器
+			25.uni-pagination 分页器
 		</view>
 		<view class="goto-page" @click="myNavigator('/pages/index/popup')">
-			25.uni-popup 弹出层
+			uni-popup 弹出层
 		</view>
 		<view class="goto-page" @click="myNavigator('/pages/index/rate')">
 			uni-rate 评分
@@ -85,10 +88,10 @@
 			uni-segmented-control 分段器
 		</view>
 		<view class="goto-page" @click="myNavigator('/pages/index/steps')">
-			uni-steps 步骤条
+			30.uni-steps 步骤条
 		</view>
 		<view class="goto-page" @click="myNavigator('/pages/index/swipeAction')">
-			30.uni-swipe-action 滑动操作
+			uni-swipe-action 滑动操作
 		</view>
 		<view class="goto-page" @click="myNavigator('/pages/index/swiperDot')">
 			uni-swiper-dot 轮播图指示点
@@ -98,6 +101,9 @@
 		</view>
 		<view class="goto-page" @click="myNavigator('/pages/index/tag')">
 			uni-tag 标签
+		</view>
+		<view class="goto-page" @click="myNavigator('/pages/index/transition')">
+			uni-transition 过渡动画
 		</view>
 	</view>
 </template>

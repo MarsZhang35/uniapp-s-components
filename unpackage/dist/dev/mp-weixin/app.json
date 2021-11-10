@@ -1,6 +1,7 @@
 {
   "pages": [
-    "pages/index/index",
+    "pages/index/calendar",
+    "pages/index/transition",
     "pages/index/tag",
     "pages/index/table",
     "pages/index/swiperDot",

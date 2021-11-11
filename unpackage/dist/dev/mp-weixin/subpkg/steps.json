@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "步骤条",
-  "enablePullDownRefresh": false,
-  "usingComponents": {
-    "uni-link": "/uni_modules/uni-link/components/uni-link/uni-link",
-    "uni-steps": "/uni_modules/uni-steps/components/uni-steps/uni-steps",
-    "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section"
-  }
-}

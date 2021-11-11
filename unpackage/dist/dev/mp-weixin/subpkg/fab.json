@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "悬浮按钮",
-  "enablePullDownRefresh": false,
-  "usingComponents": {
-    "uni-link": "/uni_modules/uni-link/components/uni-link/uni-link",
-    "uni-fab": "/uni_modules/uni-fab/components/uni-fab/uni-fab",
-    "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section"
-  }
-}

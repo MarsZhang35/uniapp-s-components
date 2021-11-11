@@ -4,11 +4,17 @@
 		<view class="goto-page" @click="myNavigator('/owner/view')">
 			view 视图容器
 		</view>
+		<view class="goto-page" @click="myNavigator('/owner/coverView')">
+			cover-view 覆盖
+		</view>
 		<view class="goto-page" @click="myNavigator('/owner/map')">
 			map 地图
 		</view>
 		<view class="goto-page" @click="myNavigator('/owner/canvas')">
 			canvase 画布
+		</view>
+		<view class="goto-page" @click="myNavigator('/owner/text')">
+			text 文字
 		</view>
 		<uni-section class="u-section" title="扩展组建" type="line"></uni-section>
 		<view class="goto-page" @click="myNavigator('/subpkg/badge')">

@@ -22,6 +22,20 @@
 					}
 				},
 				{
+					"path": "coverView",
+					"style": {
+						"navigationBarTitleText": "覆盖",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "text",
+					"style": {
+						"navigationBarTitleText": "文件",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
 					"path": "canvas",
 					"style": {
 						"navigationBarTitleText": "画布",

@@ -10,8 +10,14 @@
 		<view class="goto-page" @click="myNavigator('/owner/map')">
 			map 地图
 		</view>
+		<view class="goto-page" @click="myNavigator('/owner/slider')">
+			slider 滑块
+		</view>
+		<view class="goto-page" @click="myNavigator('/owner/switch')">
+			switch 开关
+		</view>
 		<view class="goto-page" @click="myNavigator('/owner/canvas')">
-			canvase 画布
+			canvas 画布
 		</view>
 		<view class="goto-page" @click="myNavigator('/owner/text')">
 			text 文字

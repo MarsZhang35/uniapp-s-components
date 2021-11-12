@@ -22,6 +22,20 @@
 					}
 				},
 				{
+					"path": "slider",
+					"style": {
+						"navigationBarTitleText": "滑块",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "switch",
+					"style": {
+						"navigationBarTitleText": "开关",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
 					"path": "coverView",
 					"style": {
 						"navigationBarTitleText": "覆盖",

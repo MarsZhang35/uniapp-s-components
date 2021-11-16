@@ -17,11 +17,13 @@
 					<switch @change="switch2Change" />
 				</view>
 				<view>推荐展示样式</view>
+				<switch checked  color="#0000FF" type="checkbox"/>
+				<switch class="active" checked  color="#0000FF"/>
 			</view>
 			<view>
 				<view>
 					<view>开启中</view>
-					<switch checked  color="#0000FF"/>
+					<switch checked/>
 				</view>
 				<view>
 					<view>关闭</view>
@@ -69,4 +71,5 @@
 		justify-content: center;
 		align-items: center;
 	}
+
 </style>

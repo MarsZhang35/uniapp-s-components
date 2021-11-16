@@ -1,16 +1,49 @@
 {
-	"pages": [{
+	"pages": [
+		{
 		"path": "pages/index/index",
 		"style": {
-			"navigationBarTitleText": "uni-app组建"
+			"navigationBarTitleText": "uni-app内置组建"
+		}
+	}, {
+		"path": "pages/index/mainPage",
+		"style": {
+			"navigationBarTitleText": "uni-app扩展组建"
 		}
 	}],
+
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#d4237a",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/component.png",
+				"selectedIconPath": "static/componentHL.png",
+				"text": "内置组件"
+			},
+			{
+				"pagePath": "pages/index/mainPage",
+				"iconPath": "static/template.png",
+				"selectedIconPath": "static/templateHL.png",
+				"text": "扩展组件"
+			}
+		]
+	},
 	"subPackages": [{
 			"root": "owner",
 			"pages": [{
 					"path": "view",
 					"style": {
 						"navigationBarTitleText": "视图容器",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "video",
+					"style": {
+						"navigationBarTitleText": "视频",
 						"enablePullDownRefresh": false
 					}
 				},
@@ -50,6 +83,13 @@
 					}
 				},
 				{
+					"path": "progress",
+					"style": {
+						"navigationBarTitleText": "进度条",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
 					"path": "canvas",
 					"style": {
 						"navigationBarTitleText": "画布",
@@ -59,7 +99,7 @@
 			]
 		},
 		{
-			"root": "subpkg",
+			"root": "expand",
 			"pages": [{
 					"path": "badge",
 					"style": {

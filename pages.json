@@ -1,6 +1,5 @@
 {
-	"pages": [
-		{
+	"pages": [{
 		"path": "pages/index/index",
 		"style": {
 			"navigationBarTitleText": "uni-app内置组建"
@@ -10,6 +9,11 @@
 		"style": {
 			"navigationBarTitleText": "uni-app扩展组建"
 		}
+	}, {
+		"path": "pages/index/mine",
+		"style": {
+			"navigationBarTitleText": "关于作者"
+		}
 	}],
 
 	"tabBar": {
@@ -18,20 +22,62 @@
 		"borderStyle": "black",
 		"backgroundColor": "#ffffff",
 		"list": [{
-				"pagePath": "pages/index/index",
-				"iconPath": "static/component.png",
-				"selectedIconPath": "static/componentHL.png",
-				"text": "内置组件"
-			},
-			{
-				"pagePath": "pages/index/mainPage",
-				"iconPath": "static/template.png",
-				"selectedIconPath": "static/templateHL.png",
-				"text": "扩展组件"
-			}
-		]
+			"pagePath": "pages/index/index",
+			"iconPath": "static/component.png",
+			"selectedIconPath": "static/componentHL.png",
+			"text": "内置组件"
+		}, {
+			"pagePath": "pages/index/mainPage",
+			"iconPath": "static/template.png",
+			"selectedIconPath": "static/templateHL.png",
+			"text": "扩展组件"
+		}, {
+			"pagePath": "pages/index/mine",
+			"iconPath": "static/personHD.png",
+			"selectedIconPath": "static/person.png",
+			"text": "关于作者"
+		}]
 	},
 	"subPackages": [{
+			"root": "aboutMe",
+			"pages": [{
+				"path": "connectMe",
+				"style": {
+					"navigationBarTitleText": "联系我",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "supportMe",
+				"style": {
+					"navigationBarTitleText": "支持我",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "location",
+				"style": {
+					"navigationBarTitleText": "来找我",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "setting",
+				"style": {
+					"navigationBarTitleText": "设置",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "feedBack",
+				"style": {
+					"navigationBarTitleText": "意见反馈",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "copyright",
+				"style": {
+					"navigationBarTitleText": "版权说明",
+					"enablePullDownRefresh": false
+				}
+			}]
+		}, {
 			"root": "owner",
 			"pages": [{
 					"path": "view",

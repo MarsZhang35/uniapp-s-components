@@ -390,8 +390,14 @@
 						"navigationBarTitleText": "标签",
 						"enablePullDownRefresh": false
 					}
+				},
+				{
+					"path": "icons",
+					"style": {
+						"navigationBarTitleText": "图标",
+						"enablePullDownRefresh": false
+					}
 				}
-
 			]
 		}
 	],

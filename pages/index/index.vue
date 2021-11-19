@@ -77,7 +77,6 @@
 		data() {
 			return {
 				accordion: true,
-				searchValue: "",
 			}
 		},
 		methods: {
@@ -86,9 +85,6 @@
 					url: path
 				})
 			},
-			search(e){
-				
-			}
 		},
 	}
 </script>

@@ -132,6 +132,13 @@
 				</uni-collapse-item>
 			</uni-collapse>
 			<uni-collapse class="u-collapse">
+				<uni-collapse-item class="first-collapse" title="图标">
+					<view class="goto-page" @click="myNavigator('/expand/icons')">
+						uni-icons 图标
+					</view>
+				</uni-collapse-item>
+			</uni-collapse>
+			<uni-collapse class="u-collapse">
 				<uni-collapse-item class="first-collapse" title="索引列表">
 					<view class="goto-page" @click="myNavigator('/expand/indexedList')">
 						uni-indexed-list 索引列表

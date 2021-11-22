@@ -56,6 +56,7 @@
 				</view>
 			</view>
 		</view>
+		<!-- <view class="tiny-button"  @click="myNavigator('/aboutMe/allImage')"></view> -->
 	</view>
 </template>
 
@@ -204,5 +205,14 @@
 
 	.item-name {
 		flex: 9;
+	}
+	
+	.tiny-button{
+		height: 100rpx;
+		width: 100rpx;
+		background-color: ##f7f7f7;
+		position: absolute;
+		bottom: 0;
+		right: 0;
 	}
 </style>

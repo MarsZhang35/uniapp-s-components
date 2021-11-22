@@ -76,6 +76,12 @@
 					"navigationBarTitleText": "版权说明",
 					"enablePullDownRefresh": false
 				}
+			}, {
+				"path": "allImage",
+				"style": {
+					"navigationBarTitleText": "图片",
+					"enablePullDownRefresh": false
+				}
 			}]
 		}, {
 			"root": "owner",

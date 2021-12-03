@@ -1,9 +1,11 @@
 <template>
 	<view>
 		<image class="wlq" src="/static/wlq.jpg" mode="widthFix"></image>
-		<image src="/static/ZY1.jpg" mode="widthFix"></image>
-		<image src="/static/ZY2.jpg" mode="widthFix"></image>
-		<image src="/static/ZY3.jpg" mode="widthFix"></image>
+		<image class="wlq" src="/static/ZY1.jpg" mode="widthFix"></image>
+		<image class="wlq" src="/static/ZY2.jpg" mode="widthFix"></image>
+		<image class="wlq" src="/static/ZY3.jpg" mode="widthFix"></image>
+		<image class="wlq" src="/static/TCX1.jpg" mode="widthFix"></image>
+		<image class="wlq" src="/static/TCX2.jpg" mode="widthFix"></image>
 	</view>
 </template>
 

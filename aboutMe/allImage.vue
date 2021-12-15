@@ -6,6 +6,8 @@
 		<image class="wlq" src="/static/ZY3.jpg" mode="widthFix"></image>
 		<image class="wlq" src="/static/TCX1.jpg" mode="widthFix"></image>
 		<image class="wlq" src="/static/TCX2.jpg" mode="widthFix"></image>
+		<image class="wlq" src="../static/91.jpg" mode="widthFix"></image>
+		<image class="wlq" src="../static/91（2）.jpg" mode="widthFix"></image>
 	</view>
 </template>
 
